@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/neo-test-task/static/css/main.a72354b3.css",
+    "main.js": "/neo-test-task/static/js/main.b7b0d162.js",
+    "index.html": "/neo-test-task/index.html",
+    "main.a72354b3.css.map": "/neo-test-task/static/css/main.a72354b3.css.map",
+    "main.b7b0d162.js.map": "/neo-test-task/static/js/main.b7b0d162.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a72354b3.css",
+    "static/js/main.b7b0d162.js"
+  ]
+}
