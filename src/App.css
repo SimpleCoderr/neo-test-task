@@ -1,4 +1,6 @@
-html, 
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+
+html,
 body,
 #root,
 .app {
@@ -6,5 +8,17 @@ body,
   height: 100%;
 }
 .app {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+.container {
+  height: 100%;
+  margin: 0 auto;
+}
+@media(min-width: 1440px) {
+  .container {
+    width: 1400px;
+  }
 }

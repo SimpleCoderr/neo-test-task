@@ -1,0 +1,12 @@
+.btn {
+  line-height: 18px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #0167b3;
+  opacity: 0.5;
+  border-bottom: 1px solid #D3DCF1;
+  white-space: nowrap;
+}
+.btnIsActive {
+    opacity: 1;
+    border-bottom: none;
+}

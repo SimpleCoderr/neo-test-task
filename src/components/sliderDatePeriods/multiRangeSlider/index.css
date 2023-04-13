@@ -1,0 +1,52 @@
+.multiRangeSlider {
+  position: relative;
+  width: 100%;
+  height: 10px;
+}
+
+/* Removing the default appearance */
+.thumb,
+.thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.thumb {
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 0;
+  width: 100%;
+  outline: none;
+}
+
+.thumb--zindex-4 {
+  z-index: 4;
+}
+
+/* For Chrome browsers */
+.thumb::-webkit-slider-thumb {
+  background: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  pointer-events: all;
+  position: relative;
+  border: 5px solid #5cadea;
+  box-shadow: 0px 3px 5px rgba(31, 85, 132, 0.2);
+}
+
+/* For Firefox browsers */
+.thumb::-moz-range-thumb {
+  background-color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  pointer-events: all;
+  position: relative;
+  border: 5px solid #5cadea;
+  box-shadow: 0px 3px 5px rgba(31, 85, 132, 0.2);
+}
